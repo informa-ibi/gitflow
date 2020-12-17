@@ -1,2 +1,2 @@
 first commit
-firsr release
+first release
