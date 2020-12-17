@@ -14,16 +14,16 @@ You must publish the feature before you finish it.
   **git flow feature publish P3-0002**
 
 
-Now you have to create the PR.
+Now you have to create the PR. 
 **Notice: be sure that the PR will be compared with the develop branch!!!**
 
 
-When the PR is approved you have to finish the feature
+When the PR is approved you have to finish the feature 
   **git flow feature finish P3-0002**
   
 This command merges your feature and develop branch.
 
-Push the **develop** branch to remote
+Push the **develop** branch to remote 
   **git push origin develop**
   
 
@@ -47,15 +47,13 @@ Don't forget to publish changes to remote.
 
 
 When all defects\features validated you have to finish the release
-
   **git flow release finish v1.02** -m"Version 2020-12-17, sprint 1"
   
   
 This command will merge release and master branch.
   
   
-Push the **master** branch to remote  
-
+Push the **master** branch to remote 
   **git push origin master**
 
  
