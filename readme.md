@@ -25,6 +25,7 @@ Now everything ready to deploy this version to TEST environment.
 QA team will validate this version on TEST.
 
 Developers may fix issues during the validation but have to merge the changes to this RELEASE branch as usual.
+Don't forget to publish changes to remote.
 
 When all defects\features validated you have to finish the release
   **git flow release finish v1.02**
