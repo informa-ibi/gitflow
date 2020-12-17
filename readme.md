@@ -16,7 +16,7 @@ Now you have to create the PR.\
 When the PR is approved you have to finish the feature\
 &nbsp;&nbsp;**git flow feature finish P3-0002**
 
-This command merges your feature and develop branch.\
+This command merges your feature and develop branch.
 
 Push the **develop** branch to remote\
 &nbsp;&nbsp;**git push origin develop**
@@ -33,14 +33,14 @@ Now everything ready to deploy this version to TEST environment.\
 QA team will validate this version on TEST.
 
 Developers may fix issues during the validation but have to merge the changes to this RELEASE branch as usual.\
-Don't forget to publish changes to remote.\
+Don't forget to publish changes to remote.
 
 When all defects\features validated you have to finish the release\
 &nbsp;&nbsp;**git flow release finish v1.02** -m"Version 2020-12-17, sprint 1"
 
-This command will merge release and master branch.\
+This command will merge release and master branch.
 
 Push the **master** branch to remote\
-&nbsp;&nbsp;**git push origin master**\
+&nbsp;&nbsp;**git push origin master**
 
-Now everything ready to deploy new version to PROD environment.\
+Now everything ready to deploy new version to PROD environment.
